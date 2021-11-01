@@ -42,7 +42,7 @@ function romanConverter(number) {
         outputString = romanArray[digitIndex+1] + romanArray[digitIndex] + romanArray[digitIndex] + romanArray[digitIndex] + outputString;
         break;
       case '9':
-        outputString = romanArray[digitIndex+1] + romanArray[digitIndex+2] + outputString;
+        outputString = romanArray[digitIndex] + romanArray[digitIndex+2] + outputString;
         break;
       }
     digitIndex +=2;
